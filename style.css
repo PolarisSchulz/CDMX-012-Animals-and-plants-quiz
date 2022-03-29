@@ -1,0 +1,50 @@
+.title{
+  width: 100%;  /* Altura cuadro */
+  height: 300px; /* largo cuadro */
+  margin-top: 20%; /* Margen desde altura */
+  position: absolute;  /* No se mueva */
+  
+  
+}
+
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/083/697/non_2x/autumn-background-with-flora-and-fauna-free-vector.jpg");
+}
+
+
+div {
+  background: rgba(241, 131, 4, 0.3) /* Fondo amarillo claro con 60% opacidad en la ventana comenzar, el cuadro */
+}
+
+
+
+h1 {
+  color: rgb(105, 45, 10);
+  text-align: center;
+  
+}
+
+h2 {
+  color: rgb(255, 51, 0);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(236, 83, 11);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  color: rgb(32, 31, 30);
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+#bloque1, #bloque2, #animales, #plantas, #resultadosanimal, #resultadosplanta,#bravo, #felicitaciones {display:none}
+
+
