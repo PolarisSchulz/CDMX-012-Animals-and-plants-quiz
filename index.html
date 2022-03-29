@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Animales y Plantas Equipo 4.2</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+
+
+
+  <!-------Pagina del equipo 4.2 :D------>
+<body>
+  
+
+    <!-------Inicio pagina Trivia Animales y Plantas :D------>
+    <div id="content" >
+      <div class="title">
+      <h1>  Trivia Animales y Plantas</h1>
+
+      <button id='comenzar' onclick="inicio()" > Comenzar </button>
+
+      
+      </div>
+    </div>
+
+                 
+
+    
+
+  <!-------Bienvenidos------>
+    <div id="bloque1" >
+      <h2> ¡Bienvenida! </h2> 
+      <h3> ¡Ven y diviertete con nuestra divertida trivia sobre animales y plantas</h3>
+      <p> Para comenzar, debes ingresar tu nombre y dale clic en comenzar, ¡Mucha suerte!</p>
+
+      
+            <div id="texto1" >
+              <input id="texto2" placeholder="Ingresa tu nombre">
+              <br>
+              <br>
+              <button onclick="obtenernombre()" id="boton001">Aceptar</button>
+
+            </div>
+    </div>
+    
+
+<!-- Saludar a quien juega-->
+
+    <div id="bloque2" >
+      <h3 id="nombrejugador">  </h3>
+        <p>¿Estas listo para comenzar?
+        <p>Selecciona una opción para jugar<p>
+
+          <button onclick="obteneranimal()" id="boton002"> Animales</button>
+          <button onclick="obtenerplanta()" id="boton003"> Plantas</button>
+
+    </div>
+
+
+<!-------Trivia animales------>
+
+
+    <div id="animales" >
+      
+          <div>
+            <form>
+              <h3>1. ¿Qué animal no es un roedor?</h3>
+                <input type="radio" id="roedor1"name="pulsar" value="Hamster">
+                <label for="roedor1">Hamster</label>
+                <input type="radio" id="leon" name="pulsar" value="León">
+                <label for="leon">León</label>
+                <input type="radio" id="roedor3" name="pulsar" value="Capibara">
+                <label for="roedor3">Capibara</label>
+            </form>
+          </div>
+
+          <div>
+            <form>
+              <h3>2. ¿Cuál es un mamifero?</h3>
+              
+                <input type="radio" id="mamifero1" name="pulsar" value="Gallina">
+                <label for="mamifero1">Gallina</label>
+                <input type="radio" id="mamifero2" name="pulsar" value="Serpiente">
+                <label for="mamifero2">Serpiente</label>
+                <input type="radio" id="mamifero3" name="pulsar" value="Perro">
+                <label for="mamifero3">Perro</label>
+                
+            </form>
+          </div>
+
+          <div>
+            <form>
+              <h3>3. ¿Cuál vive en el oceano?</h3>
+            
+                <input type="radio" id="oceano1" name="pulsar" value="Alacran">
+                <label for="oceano1">Alacran</label>
+                <input type="radio" id="oceano2" name="pulsar" value="Ballena">
+                <label for="oceano2">Ballena</label>
+                <input type="radio" id="oceano3" name="pulsar" value="Caballo">
+                <label for="oceano3">Caballo</label>
+            
+            </form>
+          </div>
+          <br>
+          <br>
+          <button onclick="resultadosanimal()" id="boton004"> Resultado</button>
+        
+    </div>
+      
+<!-------Trivia plantas------>
+
+    <div id="plantas" >
+          <div>
+            <form>
+                <h3>4.¿Cuál opción es una planta?:</h3>
+
+                <input type="radio" id="plantas1" name="pulsar" value="Rosa">
+                <label for="plantas1">Rosa</label>
+                <input type="radio" id="plantas2" name="pulsar" value="Girasol">
+                <label for="plantas2">Girasol</label>
+                <input type="radio" id="plantas3" name="pulsar" value="Helecho">
+                <label for="plantas3">Helecho</label>
+
+            </form>
+          </div>
+
+          <div>
+            <form>
+              <h3>5.¿Cuál opción es una flor?:</h3>
+              
+                <input type="radio" id="flor1" name="pulsar" value="pino">
+                <label for="flor1">Pino</label>
+                <input type="radio" id="flor2" name="pulsar" value="margarita">
+                <label for="flor2">Margarita</label>
+                <input type="radio" id="flor3" name="pulsar" value="pasto">
+                <label for="flor3">Pasto</label>
+            </form>
+          </div>
+      
+          <div>
+            <form>
+              <h3>6.¿Cuál opción es una semilla?:</h3>
+      
+                <input type="radio" id="semilla1" name="pulsar" value="cerezo">
+                <label for="semilla1">Cerezo</label>
+                <input type="radio" id="semilla2" name="pulsar" value="bonsai">
+                <label for="semilla2">Bonsai</label>
+                <input type="radio" id="semilla3" name="pulsar" value="frijol">
+                <label for="semilla3">Frijol</label>
+              </form>
+          </div>
+          <br>
+          <br>
+          <button onclick="resultadosplanta()" id="boton005"> Resultado</button>
+    </div>
+
+<!-------Felicidades :)------>
+
+    <div id="felicitaciones">
+      <div id="puntuacion">
+
+        <h1> ¡Felicidades! </h1>
+        <h2> Por llegar hasta aquí </h2>
+        <p id="total"> </p>
+
+        <button onclick="bravo()" id="boton006">Reiniciar</button>
+
+      </div>
+    
+  </div>
+
+
+    
+</body>
+</html>
