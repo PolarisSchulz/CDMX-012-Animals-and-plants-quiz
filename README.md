@@ -1,5 +1,5 @@
 
-# CDMX-012-Animals-and-plants-quiz
+# Pre-Work-Laboratoria-Animals-and-plants-quiz
 
 Este proyecto es un mini quiz de plantas y animales, podemos seleccionar entre varias opciones y obtener un puntaje.
 Al finalizar el Quiz obtendras un maximo puntaje y las felicidtaciones por tu participación.
