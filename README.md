@@ -28,4 +28,4 @@ así dandonos la posibilidad de ser aceptadas al bootcamp.
 
 ## Demo 📦
 
-Puedes ver el resultado de este proyecto  [aquí](https://link)
+Puedes ver el resultado de este proyecto  [aquí](https://polarisschulz.github.io/)
